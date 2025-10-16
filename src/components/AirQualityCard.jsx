@@ -12,12 +12,12 @@ export default function AirQualityCard() {
       >
         <div className="absolute inset-0 bg-gradient-to-br from-gray-300/10 to-gray-600/10 opacity-20 blur-xl"></div>
 
-        <div className="relative z-10 text-center space-y-3">
+        <div className="relative z-10 text-center space-y-2">
           {/* Title shimmer */}
           <div className="h-5 w-32 sm:w-40 bg-white/20 mx-auto rounded"></div>
-          <div className="flex items-center justify-around mt-3">
+          <div className="flex items-center justify-between mt-3">
               <div className="h-14 w-14 bg-white/20 rounded-xl"></div>
-              <div className="h-8 w-16 bg-white/20 rounded"></div>
+              <div className="h-8 w-12 bg-white/20 rounded"></div>
           </div>
         </div>
       </div>
