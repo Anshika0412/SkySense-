@@ -2,7 +2,7 @@ import Home from "./pages/Home"
 
 function App() {
   return (
-    <div className="transition-colors duration-700 bg-cover w-[98vw]  bg-day-bg dark:bg-night-bg text-blue-50 dark:text-gray-300 ">
+    <div className="transition-colors duration-700 bg-cover w-[98vw]  bg-[url('/daybg.jpeg')] dark:bg-[url('/nightbg.jpeg')]text-blue-50 dark:text-gray-300 ">
       <Home/>
     </div>
   )
